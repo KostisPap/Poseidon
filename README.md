@@ -6,6 +6,7 @@ A C# (.NET 6) library of calculations for hydrodynamic load analysis of offshore
 
 ## What it does
 
+- **Monopile Foundation Superelement**: produces Wind Turbine Generator (WTG) monopile foundation superelements for Integrated Load Analysis (ILA).
 - **Wave and current modelling**: wave components, constrained-wave handling, and current profiles from ECM, NCM and NOC current models.
 - **Hydrodynamic coefficients**: drag (Cd) and inertia (Cm) coefficients over elevation, including marine-growth roughness and anode bracelets (`DragCoefficient`, `InertiaCoefficient`).
 - **Run model**: `Run`, `Location`, `MPSection`, `LoadCase` and related types describing an analysis (time step, duration, geometry, marine growth, bracelets, load cases).
